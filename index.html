@@ -13,50 +13,65 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
+    <header>
+      <nav>
+        <ul>
+          <li class="home-link"><a href="index.html">Home</a></li>
+          <li><a href="">Selected Work</a></li>
+          <li><a href="">Overview</a></li>
+          <li><a href="">Connect</a></li>
+        </ul>
+      </nav>
+    </header>
     <section class="home">
-        <h1>k.angelo</h1>
-        <!-- <p>Creative thinker. Innovative problem solver. Dedicated designer. Avid hustler. Wearer of many hats.</p> -->
-        <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Resume</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </nav>
+        <h1>Hi – I’m Katie Angelo, a freelance digital designer living in Boston, MA and working worldwide.</h1>
+        <button class="connect-button">Let's Work Together</button>
     </section>
-    <section class="projects">
-      <h1>Projects</h1>
-      <div class="projects-main">
-        <div class="row">
-          <div class="col-1-3">
-            <a href="https://tangelok.github.io/"><img src="img/blue-dragon.png" alt="blue-dragon"></a>
+    <section class="passion">
+        <h2>What I love doing <span class="spacing">----------</span></h2>
+        <div class="passion-content">
+          <div class="col-1-3" id="passion-col">
+            <h3>Web / User Interface</h3>
+            <p>Responsive, interactive and clean websites and apps for all devices and platforms.</p>
           </div>
-          <div class="col-1-3">
-            <a href=""><img src="img/albums.png" alt="albums"></a>
+          <div class="col-1-3" id="passion-col">
+            <h3>Strategy / UX</h3>
+            <p>Creating amazing experiences for users, and putting $$$ in the pockets of my clients.</p>
           </div>
-          <div class="col-1-3">
-            <a href=""><img src="img/monument.png" alt="monument"></a>
+          <div class="col-1-3" id="passion-col">
+            <h3>Branding</h3>
+            <p>Building and creating brands that are digital ready. It’s more than just a logo.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-1-3">
-            <a href=""><img src="img/pacific.png" alt="pacific"></a>
+    </section>
+    <section class="project-container">
+      <h2>Selected Work <span class="spacing">----------</span></h2>
+      <div class="projects-main">
+        <div class="grid-wrapper">
+          <div class="grid-row">
+            <div class="col-1" id="projects">
+              <a href="https://tangelok.github.io/"><img src="img/blue-dragon.png" alt="blue-dragon" class="image"></a>
+            </div>
           </div>
-          <div class="col-1-3">
-            <a href=""><img src="" alt=""></a>
+          <div class="grid-row">
+            <div class="col-1" id="projects">
+              <a href=""><img src="img/pacific.png" alt="pacific" class="image"></a>
+            </div>
           </div>
-          <div class="col-1-3">
-            <a href=""><img src="" alt=""></a>
+          <div class="grid-columns">
+            <div class="col-1-2"  id="projects">
+              <a href=""><img src="img/monument.png" alt="monument" class="image"></a>
+            </div>
+            <div class="col-1-2" id="projects">
+              <a href=""><img src="img/albums.png" alt="albums" class="image"></a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="resume">
-      <h1>Resume</h1>
       <div class="resume-main">
-        <div class="col-2-3" id="resume-col">
+        <div id="resume-col">
           <div class="skills">
                 <h3 class="skillsTop">HTML5</h3><!--END resumeProficienciesTop-->
                <div class="skillsBottom">
@@ -114,28 +129,6 @@
                </div>
               </div><!--END resumeProficienciesBottom-->
           </div>
-              <!-- <dl>
-                <dt>Server</dt>
-                  <dd>Blue Dragon - Fort Point, Boston</dd>
-                  <dd>Tapeo - Back Bay, Boston</dd>
-                  <dd>Ironsides - Charlestown, MA</dd>
-                <dt>Tech /  Creative</dt>
-                  <dd>Innovative Minds Marketing</dd>
-                    <dd>Outreach Marketing and Business Development for Mobile Apps</dd>
-                <dt>Politics</dt>
-                  <dd>Rob Consalvo for Mayor of Boston 2013</dd>
-                    <dd>Engagement with the public on Consalvo’s strategies and the benefits he intends to implement</dd>
-                <dt>Suffolk University's Student Leadership &amp; Involvement</dt>
-                    <dd>Worked with clubs and organizations to help Student Center run smoothly</dd>
-              </dl> -->
-          </div>
-        <div class="col-1-3" id="school">
-          <dl>
-            <dt>General Assembly - Boston, MA</dt>
-              <dd>Front End Web Development, 8/17</dd>
-            <dt>Suffolk University - Boston, MA</dt>
-              <dd>B.S. Philosophy, Cum Laude, 5/16</dd>
-          </dl>
         </div>
       </div>
     </section>
