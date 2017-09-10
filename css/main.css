@@ -343,7 +343,50 @@ input, textarea {
  .passion-function h3 {
     font-size: 16px;
  }
-
+ /* ==========================================================================
+     Overview.html
+  ========================================================================== */
+.overview-home {
+  padding: 240px;
+  background-image: url(../img/block-white-vines.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #59191F;
+}
+.overview-home h1 {
+  color: #59191F;
+  font-size: 37px;
+  margin-top: 65px;
+}
+.overview-home p {
+  color: #59191F;
+  font-size: 20px;
+}
+.current-projects {
+  padding: 120px;
+}
+.past-projects {
+  padding: 120px;
+  background-color: #59191F;
+  color: #F2F2F2;
+  }
+.past-projects h2 {
+  color: #F2F2F2;
+}
+.overview-footer {
+  padding: 80px;
+  background-image: url(../img/colorful-doors.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #59191F;
+  text-align: center;
+}
+.overview-footer h2 {
+  color: #59191F;
+}
 /* ----------------------------------------
 Placeholder Text
 ------------------------------------------- */
