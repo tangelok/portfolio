@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="shortcut icon" href="favicon-copy.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
@@ -74,14 +74,28 @@
     </section>
     <section class="connect">
       <h2>Connect <span class="spacing">----------</span></h2>
-        <!-- INSERT FORM HERE -->
-      <a href="https://www.linkedin.com/in/katherineangelo/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-      <a href="https://github.com/tangelok"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-      <a href="https://www.instagram.com/tangelok/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <div class="footer-container">
+        <div class="col-2-3">
+          <!-- <h3>Let's Chat!</h3> -->
+          <form>
+            <input type="text" name="username" placeholder="Full Name" id="">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject" id="">
+            <textarea placeholder="Message"></textarea>
+            <button class="form-button" type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="col-2-3" id="social-links">
+          <a href="https://www.linkedin.com/in/katherineangelo/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="https://github.com/tangelok"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/tangelok/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
     </section>
     <footer>
       <h2>Interested in working on a project together?</h2>
       <p>I'm currently AVAILABLE and booking work for 2017.</p>
+      <button class="connect-button">Let's Work Together</button>
     </footer>
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
         <script src="js/main.js"></script>
