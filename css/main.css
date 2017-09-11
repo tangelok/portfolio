@@ -128,7 +128,7 @@ nav li a:hover {
   cursor:pointer;
 }
 .alignment {
-    margin: 0 auto;
+    text-align: center;
 }
 
 /* ==========================================================================
@@ -146,15 +146,15 @@ nav li a:hover {
   font-size: 36px;
   margin-bottom: 70px;
 }
-#passion-col {
+.passion-col {
   line-height: 2;
 }
-#passion-col p {
+.passion-col p {
   margin-right: 0;
   text-align: left;
   margin-right: 40px;
 }
-#passion-col h3 {
+.passion-col h3 {
   font-size: 28px;
 }
 
@@ -176,7 +176,7 @@ nav li a:hover {
    Connect
  ========================================================================== */
 .connect {
-  margin-left: 120px;
+  padding: 30px 120px 50px 120px;
 }
 .connect h4 {
   font-size: 22px;
@@ -196,18 +196,16 @@ nav li a:hover {
   color: #59191F;
 }
 .footer-container {
-  display: flex;
-  flex-wrap: wrap;
+  text-align: center;
 }
 #social-links {
   text-align: center;
-  margin-left: 140px;
+  /*margin-left: 140px;*/
   margin-bottom: 70px;
 }
 form {
  font-family: 'Open Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
-  margin: 0;
   text-transform: uppercase;
   letter-spacing: .02em;
   text-align: center;
@@ -215,7 +213,6 @@ form {
   padding: 50px;
   width: 100%;
   margin: 0 auto;
-  margin-left: 100px;
 }
 input, textarea {
  display: block;
@@ -234,6 +231,7 @@ input, textarea {
  font-family: 'Open Sans Condensed', sans-serif;
  text-transform: uppercase;
  padding: 5px 250px 5px 250px;
+ text-align: center;
  margin-top: 10px;
  width: 100%;
  font-size: 18px;
@@ -245,7 +243,6 @@ input, textarea {
  font-family: 'Open Sans Condensed', sans-serif;
  text-transform: uppercase;
  padding: 5px 250px 5px 250px;
- margin: 10px;
  transition: 0.25s;
  cursor:pointer;
 }
@@ -344,9 +341,6 @@ input, textarea {
  }
  .passion-function {
    padding:120px;
- }
- .passion-function h3 {
-    font-size: 16px;
  }
  /* ==========================================================================
      Overview.html
