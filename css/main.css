@@ -105,6 +105,7 @@ nav li a:hover {
   background-attachment: fixed;
   background-position: center;
   padding: 110px;
+
 }
 .home h1 {
   font-size: 36px;
@@ -117,15 +118,17 @@ nav li a:hover {
   text-transform: uppercase;
   font-size: 18px;
   padding: 30px 50px 30px 50px;
-  text-align: center;
   margin-top: 40px;
-  margin-left: 340px;
   transition-duration: 0.25s;
   color: #262626;
 }
 #home-connect-button:hover {
   background-color: #59191F;
   color: white;
+  cursor:pointer;
+}
+.alignment {
+    margin: 0 auto;
 }
 
 /* ==========================================================================
@@ -244,6 +247,7 @@ input, textarea {
  padding: 5px 250px 5px 250px;
  margin: 10px;
  transition: 0.25s;
+ cursor:pointer;
 }
 
 /* ==========================================================================
@@ -276,6 +280,7 @@ input, textarea {
  .connect-button:hover {
    background-color: #59191F;
    color: white;
+   cursor:pointer;
  }
  /* ==========================================================================
      Connect.html
@@ -381,11 +386,11 @@ input, textarea {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  color: #59191F;
+  color: #F2F2F2;
   text-align: center;
 }
 .overview-footer h2 {
-  color: #59191F;
+
 }
 /* ----------------------------------------
 Placeholder Text

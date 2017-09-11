@@ -32,19 +32,10 @@ $('.exit   ').on('click', function(){
 //IF you scroll x pixels
   //Then it will remove current nav bar and add new one
 
+  /* ----------------------------------------
+  Buttons
+  ------------------------------------------- */
 
-
-/* ==========================================================================
-  Circle Graph
-========================================================================== */
-
-$(document).ready(function() {
-  $('.html').css('width', '85%');
-  $('.css').css('width', '85%');
-  $('.jquery').css('width', '70%');
-  $('.javascript').css('width', '60%');
-  $('.adobe').css('width', '80%');
-  $('.wordpress').css('width', '10%');
-  $('.ui').css('width', '70%');
-  $('.rwd').css('width', '80%');
-});
+    $('.connect-button').on('click', function () {
+    	 window.location.href="connect.html"
+    });
